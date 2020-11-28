@@ -45,8 +45,8 @@ android {
         applicationId "com.movehubs.foodlion"
         minSdkVersion 19
         targetSdkVersion 29
-        versionCode 59
-        versionName '2.0.1'
+        versionCode 60
+        versionName '2.0.2'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
