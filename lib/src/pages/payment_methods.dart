@@ -41,7 +41,8 @@ class _PaymentMethodsWidgetState extends State<PaymentMethodsWidget> {
         elevation: 0,
         centerTitle: true,
         title: Text(
-          S.of(context).payment_mode,
+          'วิธีชำระเงิน',
+          //S.of(context).payment_mode,
           style: Theme.of(context).textTheme.headline6.merge(TextStyle(letterSpacing: 1.3)),
         ),
         actions: <Widget>[
@@ -59,7 +60,7 @@ class _PaymentMethodsWidgetState extends State<PaymentMethodsWidget> {
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: SearchBarWidget(),
             ),
-            SizedBox(height: 15),
+            SizedBox(height: 10),
             list.paymentsList.length > 0
                 ? Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 20),

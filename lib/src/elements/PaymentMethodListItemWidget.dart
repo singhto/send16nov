@@ -32,8 +32,8 @@ class PaymentMethodListItemWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             Container(
-              height: 60,
-              width: 60,
+              height: 50,
+              width: 50,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(5)),
                 image: DecorationImage(image: AssetImage(paymentMethod.logo), fit: BoxFit.fill),

@@ -83,8 +83,8 @@ class CartBottomDetailsWidget extends StatelessWidget {
                           padding: EdgeInsets.symmetric(vertical: 14),
                           color: !_con.carts[0].food.restaurant.closed ? Theme.of(context).accentColor : Theme.of(context).focusColor.withOpacity(0.5),
                           shape: StadiumBorder(),
-                          child: Text(
-                            S.of(context).checkout,
+                          child: Text('ชำระเงิน',
+                            //S.of(context).checkout,
                             textAlign: TextAlign.start,
                             style: Theme.of(context).textTheme.bodyText1.merge(TextStyle(color: Theme.of(context).primaryColor)),
                           ),

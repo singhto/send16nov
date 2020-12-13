@@ -106,8 +106,8 @@ class _HomeWidgetState extends StateMVC<HomeWidget> {
                       color: Theme.of(context).hintColor,
                     ),
                   ),
-                  title: Text(
-                    S.of(context).top_restaurants,
+                  title: Text('เลือกสถานที่จัดส่ง',
+                    //S.of(context).top_restaurants,
                     style: Theme.of(context).textTheme.headline4,
                   ),
                   subtitle: Text(
